@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="name" type="S" value="UpdateTheExpenseReport [Script\UpdateExpenses - UpdateTheExpenseReport]"/>
+				<Prp name="details" type="S" value="{D48B516D-748D-42D9-87B9-101ED493E5BB}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="45111.018302037"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="start time" type="D" value="45111.0182924537"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="name" type="S" value="Create_ExpensesReport [Script\CreateExpenses - Create_ExpensesReport]"/>
+				<Prp name="details" type="S" value="{2A7BE170-1B54-4EA5-92A2-09A9963E3A54}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="45111.0182923495"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="start time" type="D" value="45111.0182151157"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{E4A2ECF8-4C6B-41B8-8338-F382302FF969}">
+	<children>
+		<child name="ExpenseItProject" key="{B2E8297B-78A6-455F-AC5C-3C21D7EB4544}" path="ExpenseItProject\ExpenseItProject.mds" />
+	</children>
+	<testItems key="{64AC9417-E00A-4119-9174-AE87A8EF22E2}">
+		<children>
+			<testItem key="{B2E8297B-78A6-455F-AC5C-3C21D7EB4544}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{470DBC85-DDE6-4D75-B508-24FD4D8C6E21}" />
+	<analysis key="{4E753B10-376B-4E2C-AF2D-56EBE2C354FF}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child data"/>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.ExpensesIt.WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;emailTextBox&quot;)"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="58"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="463"/>
+					<Prp name="datetime" type="D" value="45110.7890922801"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="263"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="83"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="date" type="D" value="45111.0182594676"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'Srini@gmail.com' was entered in the text editor."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;ExpenseIt9&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;ExpenseIt Standalone&quot;).WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;emailTextBox&quot;)"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="date" type="D" value="45111.018261713"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Employee number set as 1234"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="173"/>
+					<Prp name="click point y" type="I" value="130"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.ExpenseIt9.Window(&quot;#32770&quot;, &quot;ExpenseIt Standalone&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 1)"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="119"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="211"/>
+					<Prp name="datetime" type="D" value="45110.7891244329"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="136"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="142"/>
+					<Prp name="line #" type="I" value="121"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="121"/>
+			<Prp name="date" type="D" value="45111.0182916319"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;ExpenseIt9&quot;).Window(&quot;#32770&quot;, &quot;ExpenseIt Standalone&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 1)"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="363"/>
+					<Prp name="click point y" type="I" value="127"/>
+					<Prp name="object name" type="S" value="Aliases.ExpensesIt.WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;costCenterTextBox&quot;)"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="463"/>
+					<Prp name="datetime" type="D" value="45110.7890958449"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="263"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="140"/>
+					<Prp name="line #" type="I" value="91"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="91"/>
+			<Prp name="date" type="D" value="45111.0182638657"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (100, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;ExpenseIt9&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;ExpenseIt Standalone&quot;).WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;costCenterTextBox&quot;)"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="363"/>
+					<Prp name="click point y" type="I" value="243"/>
+					<Prp name="object name" type="S" value="Aliases.ExpensesIt.WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;createExpenseReportButton&quot;)"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="232"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="463"/>
+					<Prp name="datetime" type="D" value="45110.7891085764"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="263"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="255"/>
+					<Prp name="line #" type="I" value="91"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="91"/>
+			<Prp name="date" type="D" value="45111.0182757986"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (100, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;ExpenseIt9&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;ExpenseIt Standalone&quot;).WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;createExpenseReportButton&quot;)"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="date" type="D" value="45111.0182252431"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Users\SriniDeepthi\Desktop\ExpenseItSolution\ExpenseItProject\Debug\net7.0-windows\ExpenseIt9.exe&quot; started."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="The process ID is 13404."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="date" type="D" value="45111.0182715394"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Cost Center Item 1 selected"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 9">
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="69"/>
+			<Prp name="date" type="D" value="45111.0182741667"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Employee Type set as CSG"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="635"/>
+					<Prp name="click point y" type="I" value="471"/>
+					<Prp name="object name" type="S" value="Aliases.CreateExpenseReportDialog.WPFObject(&quot;CreateExpenseReportDialogBox&quot;, &quot;Create Expense Report&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 3).WPFObject(&quot;Button&quot;, &quot;_OK&quot;, 1)"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="460"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="676"/>
+					<Prp name="datetime" type="D" value="45110.7891223032"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="595"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="482"/>
+					<Prp name="line #" type="I" value="91"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="91"/>
+			<Prp name="date" type="D" value="45111.0182898611"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (40, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;ExpenseIt9&quot;).WPFObject(&quot;HwndSource: CreateExpenseReportDialogBox&quot;, &quot;Create Expense Report&quot;).WPFObject(&quot;CreateExpenseReportDialogBox&quot;, &quot;Create Expense Report&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 3).WPFObject(&quot;Button&quot;, &quot;_OK&quot;, 1)"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="326"/>
+					<Prp name="click point y" type="I" value="156"/>
+					<Prp name="object name" type="S" value="Aliases.ExpensesIt.WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;employeeTypeRadioButtons&quot;).WPFObject(&quot;ListBoxItem&quot;, &quot;CSG&quot;, 2)"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="146"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="347"/>
+					<Prp name="datetime" type="D" value="45110.7891065509"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="305"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="167"/>
+					<Prp name="line #" type="I" value="91"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="91"/>
+			<Prp name="date" type="D" value="45111.0182736806"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (21, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;ExpenseIt9&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;ExpenseIt Standalone&quot;).WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;employeeTypeRadioButtons&quot;).WPFObject(&quot;ListBoxItem&quot;, &quot;CSG&quot;, 2)"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.ExpensesIt.WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;employeeNumberTextBox&quot;)"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="87"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="463"/>
+					<Prp name="datetime" type="D" value="45110.7890940972"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="263"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="111"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="date" type="D" value="45111.0182611111"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text '1234' was entered in the text editor."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;ExpenseIt9&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;ExpenseIt Standalone&quot;).WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;employeeNumberTextBox&quot;)"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="699"/>
+					<Prp name="click point y" type="I" value="155"/>
+					<Prp name="object name" type="S" value="Aliases.CreateExpenseReportDialog.WPFObject(&quot;CreateExpenseReportDialogBox&quot;, &quot;Create Expense Report&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;addExpenseButton&quot;)"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="144"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="761"/>
+					<Prp name="datetime" type="D" value="45110.7891179745"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="638"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="167"/>
+					<Prp name="line #" type="I" value="91"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="91"/>
+			<Prp name="date" type="D" value="45111.0182858218"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (61, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;ExpenseIt9&quot;).WPFObject(&quot;HwndSource: CreateExpenseReportDialogBox&quot;, &quot;Create Expense Report&quot;).WPFObject(&quot;CreateExpenseReportDialogBox&quot;, &quot;Create Expense Report&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;addExpenseButton&quot;)"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{431BC14B-3516-42F8-9961-DE7102A08C29}"/>
+			<Prp name="unit 1" type="S" value="{DA7E16D4-D872-412B-BE2B-9FF61BE3AC64}"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.ExpensesIt.WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;costCenterTextBox&quot;)"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="463"/>
+					<Prp name="datetime" type="D" value="45110.7891026968"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="263"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="140"/>
+					<Prp name="line #" type="I" value="70"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="70"/>
+			<Prp name="date" type="D" value="45111.0182709375"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The combo box item 1 was selected."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;ExpenseIt9&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;ExpenseIt Standalone&quot;).WPFObject(&quot;MainWindow&quot;, &quot;ExpenseIt Standalone&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;costCenterTextBox&quot;)"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="date" type="D" value="45111.0182600926"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Email id set as Srini@gmail.com"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

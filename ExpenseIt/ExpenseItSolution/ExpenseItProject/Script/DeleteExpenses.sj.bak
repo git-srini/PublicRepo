@@ -1,0 +1,11 @@
+﻿//USEUNIT StandardFunctions
+//USEUNIT UpdateExpenses
+//USEUNIT ViewExpenses
+
+function Delete_Expenses(){
+  try{
+    
+  }catch(e){
+    
+  }
+}

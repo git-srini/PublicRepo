@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{39E00E15-4335-4C9A-8AD5-418E40673B3A}">
+				<TypeInfo Item0="{280FF296-A18D-40C5-B8D1-D83752D9D8F4}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="ExpenseIt9" Key="{7E877247-A5BA-490D-8858-A885ACC3E26B}">
+						<TypeInfo Item0="{982A4B2F-ADB7-4031-BC79-F9CB8FA4138B}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ExpenseIt9" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_MainWindow" Key="{40E3583B-B6FD-47DE-ABB7-6D0EAEC67D39}" ExtendedFind="True">
+								<Image FileName="-80591309" Left="0" Top="0" Right="480" Bottom="287" />
+								<TypeInfo Item0="{A04521A1-D95D-4C31-A190-16EF5B9F15BA}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="MainWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ExpenseIt Standalone" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="HwndSource_CreateExpenseReportDialogBox" Key="{291A5EF1-B3B8-4B4E-BCE8-104FA840E064}">
+								<Image FileName="-1802464460" Left="0" Top="0" Right="778" Bottom="500" />
+								<TypeInfo Item0="{A04521A1-D95D-4C31-A190-16EF5B9F15BA}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="CreateExpenseReportDialogBox" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Create Expense Report" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="ExpensesIt" Owner="{40E3583B-B6FD-47DE-ABB7-6D0EAEC67D39}" />
+		<Child Name="CreateExpenseReportDialog" Owner="{291A5EF1-B3B8-4B4E-BCE8-104FA840E064}" />
+	</LogicalNodes>
+</Root>

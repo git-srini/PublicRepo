@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="CreateExpenses" key="{DA7E16D4-D872-412B-BE2B-9FF61BE3AC64}" path="CreateExpenses.sj" />
+		<child name="UpdateExpenses" key="{D5177FB2-16A4-4C01-8D83-02632ACE64EA}" path="UpdateExpenses.sj" />
+		<child name="DeleteExpenses" key="{81A7CC81-27C9-4553-8AD4-9C60D364C3D2}" path="DeleteExpenses.sj" />
+		<child name="StandardFunctions" key="{431BC14B-3516-42F8-9961-DE7102A08C29}" path="StandardFunctions.sj" />
+	</children>
+</Root>
